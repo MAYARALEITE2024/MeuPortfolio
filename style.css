@@ -1,5 +1,7 @@
 body{/*cor de fundo*/ 
-    background-color:#f0f0ee;   
+    background-color:#f0f0ee;  
+    padding: 0; 
+    margin: 0;
 }
 ul{/*lista menu*/ 
     list-style-type: none;
