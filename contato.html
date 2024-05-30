@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>                    
+        .div{/*div de contato*/
+            border: 6px double #ceb4a8 ;
+            background-color:rgb(247, 236, 238);
+            height: 200px;
+            width: 60%;
+            text-align:left;
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="divMenu"><!--Menu com links internos-->
+        <ul>
+            <li><a href="file:///C:/Users/familia/Desktop/TRABALHO%20VSCODE/index.html">Sobre mim</a></li>
+            <li><a href="file:///C:/Users/familia/Desktop/TRABALHO%20VSCODE/academica.html">Formação Acadêmica</a></li>
+            <li><a href="file:///C:/Users/familia/Desktop/TRABALHO%20VSCODE/portfolio.html">Portfólio</a></li>
+            <li><a href="file:///C:/Users/familia/Desktop/TRABALHO%20VSCODE/contato.html">Contato</a></li>
+        </ul>
+    </div>
+    <div class="divPaginas"><!--Div com nome da página-->
+        <p class="p-paginas">CONTATO</p>
+    </div>
+    <h1 class="h1-texto">Preencha as informações abaixo:</h1>
+    <div class="div">
+        <form action="https://api.staticforms.xyz/submit" method="post"><br>
+            <!--form action vem com o endereço de recebimento do formulário-->
+            <table>
+                <tr>
+                    <th> <label for="nome">Nome:</label></th>
+                    <td> <input type="text" name="nome" id= "nome" placeholder="Digite seu nome"></td>
+                </tr><!--placeholder para aparecer mensagem-->
+                <tr>
+                    <th> <label for="e-mail">E-mail:</label></th>
+                    <td> <input type="email" name="e-mail" id= "e-mail"placeholder="Digite seu e-mail"></td>
+                </tr>
+                <tr>
+                    <th> <label for="msg">Digite sua mensagem:</label></th>
+                    <td> <textarea name="msg" rows="5" cols="40" placeholder="Digite sua mensagem"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit">Enviar</button></td>
+                    <td><input type="hidden" name="accessKey" value="2a9f19ca-bd8b-4da1-93f4-6eb12b9d508f"></td>
+                    <td><input type="hidden" name="redirectTo" value="https://example.com/contact/success"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

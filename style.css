@@ -1,0 +1,56 @@
+body{/*cor de fundo*/ 
+    background-color:#f0f0ee;   
+}
+ul{/*lista menu*/ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    background-color: rgb(247, 236, 238);    
+}
+li{float: left;/*menu horizontal*/ 
+}
+li a{
+    display: block;
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+    margin-block: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+li a:hover{/*muda opção menu ao passar mouse*/ 
+    background-color: #ceb4a8;
+    border-radius: 5px;
+    color:white;
+}
+#divMenu{/*caixa menu*/ 
+    border: 6px double #ceb4a8 ;
+    background-color:rgb(247, 236, 238);
+    margin:25px;
+    height: 40px;
+    width: 60%;
+    margin-left: 20%;
+}
+.divPaginas{/*caixa com nome de páginas*/ 
+    background-color: rgb(247, 236, 238);
+    width: 50%;
+    height: 250px;
+    border: #ceb4a8 ;
+    border-radius: 200px;
+    border-right: 30px dotted #ceb4a8;
+    border-left: 30px dotted #ceb4a8;
+    border-top: 2px double #ceb4a8;
+    border-bottom: 2px double #ceb4a8;
+    text-align: center;
+    padding: 20px;
+    margin: auto;    
+}
+.p-paginas{/*nome de cada página dentro divPaginas*/ 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin: auto;
+    padding: 100px;    
+}
+.h1-texto{/*título de cada página*/ 
+            margin-left: 20%;
+} 
